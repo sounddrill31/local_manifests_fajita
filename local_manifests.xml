@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="zamasu0" fetch="https://github.com/zamasu0" clone-depth="1" />
+    <remote name="Terminator-J" fetch="https://github.com/Terminator-J" clone-depth="1" />
+    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
+
+    <!-- Removals -->
+    <remove-project name="platform/frameworks/native
+frameworks_native" />
+    <remove-project name="device_lineage_sepolicy" />
+    <remove-project name="LineageOS/android_hardware_qcom_audio" />
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
+    <remove-project name="platform/frameworks/base
+frameworks_base" />
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/oneplus/fajita" name="android_device_oneplus_fajita_4.19" remote="zamasu0" revision="pxl" />
+
+    <!-- Kernel -->
+    <project path="kernel/oneplus/sdm845" name="crdroid_kernel_oneplus_sdm845" remote="Terminator-J" revision="14.0-4.19-test2" />
+
+    <!-- Vendor -->
+    <project path="vendor/oneplus/sdm845-common" name="proprietary_vendor_oneplus_sdm845-common_4.19" remote="zamasu0" />
+    <project path="vendor/oneplus/fajita" name="proprietary_vendor_oneplus_fajita" remote="TheMuppets" />
+
+    <!-- Removals -->
+
+    <!-- Hardware -->
+    <project path="hardware/qcom-caf/sdm845/media" name="media" remote="zamasu0" />
+    <project path="hardware/qcom-caf/sdm845/audio" name="audio" remote="zamasu0" />
+    <project path="hardware/qcom-caf/sdm845/display" name="display" remote="zamasu0" />
+    <project path="hardware/oneplus" name="android_hardware_oneplus" remote="zamasu0" />
+
+</manifest>
