@@ -8,15 +8,15 @@
     <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
 
     <!-- Removals -->
-    <remove-project name="platform/frameworks/native
-frameworks_native" />
+    <remove-project name="platform/frameworks/native"/>
+    <remove-project name="frameworks_native" />
     <remove-project name="device_lineage_sepolicy" />
     <remove-project name="LineageOS/android_hardware_qcom_audio" />
     <remove-project name="LineageOS/android_hardware_qcom_display" />
     <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
     <remove-project name="LineageOS/android_hardware_qcom_media" />
-    <remove-project name="platform/frameworks/base
-frameworks_base" />
+    <remove-project name="platform/frameworks/base"/>
+    <remove-project name="frameworks_base" />
 
     <!-- Repos -->
     <!-- Device -->
